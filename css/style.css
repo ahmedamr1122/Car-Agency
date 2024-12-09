@@ -1,0 +1,1056 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+   
+}
+img{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.image{
+    position: relative;   
+}
+.list li{
+    display: inline-block;
+    margin-left: 27px;
+    list-style-type: none;
+}
+.list{
+    margin-right: 60px;
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.list a{
+    text-decoration: none;
+    color: #FFFCFF;
+}
+.list a:hover{
+    text-decoration: underline;
+    color: #283618;
+}
+.header{
+
+    background-color:#9f0b0b;
+    width:100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    opacity: 0.9;
+    z-index: 1000000000000000000000000000000000000000000000000000000;
+}
+.header i{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+form{
+    display: inline-block;
+    margin-left: 15px;
+}
+form input{
+    border-radius: 20px;
+}
+
+.home {
+    width: 100%;
+    height:  100vh ;
+    background-image: url(../img/wallpaperflare.com_wallpaper\ \(6\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   position: relative;
+}
+home-overlay {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+
+    background-color:  rgba(0, 0, 0 , 0.7) ;
+}
+
+.home-content {
+     width: 60%;
+
+     /* hero image  */
+     position: absolute;
+     top :50% ;
+     left: 50%;
+     transform: translate( -50%  , -50% );
+   
+     text-align: center;
+}
+.home-title {
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.home-p {
+    color: #dfdfdf;
+    margin: 20px  0px ;
+    letter-spacing: 2px;
+}
+.home-btn {
+    width: 145px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.home-btn2 {
+    background-color: #9f0b0b;
+    color :#fff;
+    margin-left: 10px;
+}
+
+.home-btn:hover {
+    opacity: 0.5 ;
+}
+/*********************************first section done ************************/
+
+/* *********************second section ************************/
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.titlesec2{
+    margin-top: 40px;
+    position: relative;
+    margin-left: 700px;
+    margin-bottom: 10px;
+}
+.div1line{
+    margin-left: 340px;
+}
+
+.div2line,.div3line{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+.div1line,.div2line,.div3line{
+    margin-top: 50px;
+    border: 2px solid #50514F;
+    width: 250px;
+    height: 200px;
+    float: left;
+    background-color:#f5f5f5;
+    margin-bottom: 50px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.i1line,.i2line,.i3line{
+    display: inline-block;
+    font-size: 30px;  
+    margin-top: 5px;
+    color: #000000;
+    text-align: center;
+    margin-left: 100px;
+
+}
+.div1line a{
+    margin-left: 80px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: black;
+}
+.div2line a{
+    margin-left: 80px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: black;
+}
+.div3line a{
+    margin-left: 80px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: black;
+}
+.div1line{
+    overflow: auto;
+    position: relative;
+}
+.div1line::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #a43434;
+    transition: 1s;
+}
+.div1line:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+.div2line{
+    overflow: auto;
+    position: relative;
+}
+.div2line::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #a43434;
+    transition: 1s;
+}
+.div2line:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+
+
+
+.div3line{
+    overflow: auto;
+    position: relative;
+}
+.div3line::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #a43434;
+    transition: 1s;
+}
+.div3line:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    opacity: 0.5;
+}
+/* second section done */
+
+/* third section */
+
+.containerimg{
+    background-color:black;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.div1img,.div2img,.div3img,.div4img,.div5img,.div6img{
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+.div1img{
+    margin-left: 340px;
+}
+
+.div2img,.div3img{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.div4img,.div5img,.div6img{
+    margin-top: 50px;
+}
+.div5img,.div6img{
+margin-right:40px ;
+margin-left: 40px;
+}
+.div4img{
+    margin-left: 340px;
+}
+.div1img img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     width: 100%;
+     height: 200px;
+}
+.div2img img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     width: 100%;
+     height: 200px;
+}
+.div3img img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     width: 100%;
+     height: 200px;
+}
+.div4img img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     width: 100%;
+     height: 200px;
+}
+.div5img img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     width: 100%;
+     height: 200px;
+}
+.div6img img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     width: 100%;
+     height: 200px;
+}
+.titleimg{
+    margin-top: -100px;
+    color: white ;
+    /* position: absolute; */
+  
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/********************* third section done *******************************/
+
+/******************************** 4th section */
+
+.titlesec4{
+    margin-top: 40px;
+}
+.sec4{
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #50514F;
+}
+
+.div1,.div2,.div3,.div4,.div5,.div6{
+    border: 2px solid grey;
+    width: 250px;
+    height: 200px;
+    float: left;
+    background-color:white;
+    position: relative;
+    border-radius: 10px;
+}
+
+.div1{
+    margin-left: 340px;
+}
+
+.div2,.div3{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.div4,.div5,.div6{
+    margin-top: 50px;
+}
+.div5,.div6{
+margin-right:40px ;
+margin-left: 40px;
+}
+.div4{
+    margin-left: 340px;
+}
+.line{
+    background-color:#9f0b0b;;
+    width: 80px;
+    height: 5px;
+    margin: auto;
+    margin-top: -5px;
+    margin-bottom: 40px;
+}
+.p1,.p2,.p3,.p4,.p5,.p6{
+    text-align: center;
+    word-spacing: 7px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #9f0b0b;
+    opacity: 0.8;
+}
+.s1,.s2,.s3,.s4,.s5,.s6{
+    text-transform: capitalize;
+    font-size: large;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    color: #111827;
+}
+.i1,.i2,.i3,.i4,.i5,.i6{
+
+      font-size: 30px;  
+      margin-left: 10px;
+      margin-top: 5px;
+      
+      color: #9f0b0b;
+}
+
+.div1{
+    overflow: auto;
+    position: relative;
+}
+.div1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #9f0b0b;
+    transition: 1s;
+}
+.div1:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+
+
+
+.div2{
+    overflow: auto;
+    position: relative;
+}
+.div2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #9f0b0b;
+    transition: 1s;
+}
+.div2:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+
+
+.div3{
+    overflow: auto;
+    position: relative;
+}
+.div3::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #9f0b0b;
+    transition: 1s;
+}
+.div3:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+
+
+.div4{
+    overflow: auto;
+    position: relative;
+}
+.div4::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #9f0b0b;
+    transition: 1s;
+}
+.div4:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+
+.div4{
+    overflow: auto;
+    position: relative;
+}
+.div4::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #9f0b0b;
+    transition: 1s;
+}
+.div4:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+
+.div5{
+    overflow: auto;
+    position: relative;
+}
+.div5::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #9f0b0b;
+    transition: 1s;
+}
+.div5:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    opacity: 0.5;
+}
+.div6{
+    overflow: auto;
+    position: relative;
+}
+.div6::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #9f0b0b;
+    transition: 1s;
+}
+.div6:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+
+/******************************** 4th section doneeeeeeeeeeeeeeeeee */
+
+/* 5th section */
+
+.containersec5{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+}
+.containersec5 p{
+   
+    margin-left: 200px;
+    margin-top: 50px;
+    color: gray;
+    
+}
+.containersec5 ul{
+    margin-left: 200px;
+    
+}
+.sec5{
+    margin-left: 200px;
+    top: 0;
+    margin-top: -95px;
+   font-size: 40px;
+   font-family: sans-serif;
+   text-transform: capitalize;
+    
+}
+.lines5{
+    background-color: #9f0b0b;
+    width: 250px;
+    height: 5px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+}
+li{
+   color: gray;
+
+}
+.containersec5 img{
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: inline;
+    margin-right: 200px;
+    margin-top: -300px;
+     width: 450px;
+     height: 500px;
+
+}
+
+
+/* ***********************************************5th section doneeeeeeeeeeeeeee */
+
+
+/* 6th section */
+
+.markbackground{
+    width: 100%;
+    height: 57vh;
+    background-image: url(../img/wallpaperflare.com_wallpaper.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-top: 170px;
+    position: relative;
+}
+.markbackground::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+
+}
+.marksection{
+    position: relative;
+    overflow: auto;
+}
+.markparent{
+    position: absolute;
+    left: 0;
+    top: 0;
+    top: 300px;
+}
+.markcontent1,.markcontent2{
+    width: 470px;
+    z-index: 2;
+}
+.markcontent1{
+    float: left;
+    margin-left: 250px;
+}
+.markcontent2{
+    float: left;
+    margin-left: 80px;
+}
+.pos{
+    position: relative;
+}
+.markphoto,.markphoto2{
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    position: absolute;
+    background-position: center;
+}
+.markphoto{
+    background-image: url(../img/1an\ employee\ photo\ with\ white\ background\ \(1\).jpg);
+    background-size: cover;
+}
+.markphoto2{
+    background-image: url(../img/1an\ employee\ photo\ with\ white\ background\ \(1\).jpg);
+    background-size: cover;
+}
+.mark{
+    margin-left: 110px;
+    padding-top: 25px;
+    font-size: 30px;
+    color: white ;
+
+}
+.markp{
+    margin-left: 110px;
+    padding-top: 10px;
+    color: #9f0b0b;
+    font-size: larger;
+}
+.markp2{
+    margin-top: 20px;
+    color: #9f0b0b;
+    font-size: 17px;
+}
+
+/* ************************************6th section done */
+
+/************************************* 7th section */
+
+.titlesec7{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    margin-top: 60px;
+}
+.linesec7{
+    width: 50px;
+    height: 3px;
+    background-color: #9f0b0b;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.parentsec7{
+    overflow: auto;
+    margin-top: 50px;
+}
+
+.car1,.car2,.car3{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.div1sec7,.div2sec7,.div3sec7 {
+    width: 300px;
+    height: 400px;
+    border: 3px solid ;
+    border-radius: 15px;
+    background-color: black;
+    float:left;
+    text-align: center;
+    color: white;
+    
+}
+.div1sec7{
+    margin-left: 220px;
+}
+.div2sec7{
+    margin: 0px 70px;
+}
+
+.circle1{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #9f0b0b;
+    border-radius: 50%;
+    background-image: url(../img/Audi\ R8.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.circle2{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #9f0b0b;
+    border-radius: 50%;
+    background-image: url(../img/Mercedes-Benz\ AMG\ GT\ Black\ Series.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.circle3{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #9f0b0b;
+    border-radius: 50%;
+    background-image: url(../img/Porshe.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.circle1,.circle2,.circle3{
+    margin-bottom: 15px;
+}
+.button1, .button2, .button3{
+    background-color: #bc0c0c;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    margin-top: 50px;
+}
+.div1sec7:hover{
+    background-color: #9f0b0b;
+    color: white;
+    .circle1{
+        border:3px solid black;
+    }
+    .button1{
+        background-color: black;
+        color: white;
+    }
+}
+.div2sec7:hover{
+    background-color: #9f0b0b;
+    color: white;
+    .circle2{
+        border:3px solid black;
+    }
+    .button2{
+        background-color: black;
+        color: white;
+    }
+}
+.div3sec7:hover{
+    background-color: #9f0b0b;
+    color: white;
+    .circle3{
+        border:3px solid black;
+    }
+    .button3{
+        background-color: black;
+        color: white;
+    }
+}
+
+
+
+
+
+/* 7th section doneeeeeeeeeeeeeeeeeeeeeee */
+
+
+/* 8th section */
+
+.markbackground8{
+    width: 100%;
+    height: 57vh;
+    background-image: url(../img/wallpaperflare.com_wallpaper.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-top: 170px;
+    position: relative;
+}
+.markbackground8::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+
+}
+.marksection8{
+    position: relative;
+    overflow: auto;
+}
+.markparent8{
+    position: absolute;
+    left: 0;
+    top: 0;
+    top: 300px;
+}
+.markcontent18,.markcontent28{
+    width: 470px;
+    z-index: 2;
+}
+.markcontent18{
+    float: left;
+    margin-left: 300px;
+}
+.markcontent28{
+    float: left;
+    margin-left: 80px;
+}
+.pos8{
+    position: relative;
+}
+.markphoto8,.markphoto28{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    background-position: center;
+}
+.pos8 p{
+    color: white;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 60px;
+    text-align: center;
+}
+.markcontent28 i{
+    margin-left: 100px;
+    text-align: center;
+    padding-left: 35px;
+    font-size: 40px;
+    color: #9f0b0b;
+}
+.markcontent18 i{
+    margin-left: 130px;
+    text-align: center;
+    padding-left: 30px;
+    font-size: 40px;
+    color: #9f0b0b;
+
+}
+/* 8th section done */
+
+
+
+/* 9th section */
+
+
+.containersec9 {
+    width: 100%px;
+    margin: auto;
+    height: 100vh;
+    margin-top: 80px;
+}
+.team-content {
+    overflow: auto;
+}
+.team-item {
+    float: left;
+    background-color: rgb(187, 187, 187);
+    width: 30%;
+    padding: 14px  18px;
+    text-align: center;
+}
+.ww {
+    margin: 0px  5%;
+}
+.team-img {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    
+}
+.team-img  img {
+    width: 100%;
+    height: 300px;
+}
+
+.team-overley {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    /* opacity: 0.2; */
+}
+.team-overley a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #9f0b0b;
+    color: #283618;
+    font-size: 23px ;
+    margin-left: auto ;
+}
+.team-overley  a  i {
+    line-height: 40px ;
+}
+
+.team-info-title {
+    text-transform: uppercase;
+    padding: 12px  0px;
+    color: rgb(58, 58, 58);
+}
+.team-info-sp1 {
+    text-transform: capitalize;
+    color: grey;
+}
+.team-item:hover  .team-info-title {
+    color: #9f0b0b;
+}
+.team-item:hover  .team-info-sp1 {
+    color: #9f0b0b;
+}
+
+/* 10th section done */
+
+
+
+
+/* 11th section */
+
+
+
+.container11{
+    width: 100%;
+    background-color: black;
+    height: 500px;
+    position: relative;
+    position: absolute;
+}
+.img11{
+    background-image: url(../img/3181012e-95af-4d97-8e8b-092914eeba18.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    margin-left: 600px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.icons{
+    margin-left: 320px;
+    color: #9f0b0b;
+}
+.icons i{
+    font-size: 50px;
+    margin-top: 17px;
+    margin-left: 80px;
+}
