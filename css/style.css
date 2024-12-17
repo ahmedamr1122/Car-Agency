@@ -27,15 +27,16 @@ img{
     margin-right: 60px;
     float: right;
     list-style-type: none;
-    margin-top: 10px;
+    margin-top: 15px;
+    
 }
 .list a{
-    text-decoration: none;
+   text-decoration: none;
     color: #FFFCFF;
 }
 .list a:hover{
     text-decoration: underline;
-    color: #283618;
+    color: black;
 }
 .header{
 
@@ -52,6 +53,7 @@ img{
     margin-top: 10px;
     color: #ffffff;
 }
+.header
 form{
     display: inline-block;
     margin-left: 15px;
@@ -60,25 +62,25 @@ form input{
     border-radius: 20px;
 }
 
-.home {
+.home{
     width: 100%;
-    height:  100vh ;
+    height:  100% ;
     background-image: url(../img/wallpaperflare.com_wallpaper\ \(6\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
    position: relative;
 }
-home-overlay {
+.home-overlay {
     position: absolute;
-
+   
     width: 100%;
     height: 100%;
 
     top: 0;
     left: 0;
 
-    background-color:  rgba(0, 0, 0 , 0.7) ;
+    background-color:  rgba(0, 0, 0, 0.474) ;
 }
 
 .home-content {
@@ -126,29 +128,47 @@ home-overlay {
 
 /* *********************second section ************************/
 .container{
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 100vh;
     position: relative;
+    margin-top: 100px;
+}
+.headsec2{
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 10px;
 }
 .titlesec2{
-    margin-top: 40px;
+    /* margin-top: 40px; */
     position: relative;
-    margin-left: 700px;
-    margin-bottom: 10px;
+    /* margin-left: 700px; */
+    /* margin-bottom: 10px; */
+    margin: auto;
+  
+}
+ .line{
+    text-align: center;
 }
 .div1line{
     margin-left: 340px;
 }
+.div2line i{
+    /* text-align: center; */
+    margin-left: 110px;
+}
 
-.div2line,.div3line{
+
+.div2line{
     margin-right: 40px;
     margin-left: 40px;
 }
 
 
+
 .div1line,.div2line,.div3line{
-    margin-top: 50px;
+    margin-top: 30px;
     border: 2px solid #50514F;
     width: 250px;
     height: 200px;
@@ -265,6 +285,10 @@ home-overlay {
     height: 100vh;
     position: relative;
 }
+.Headsec3{
+    font-size: 35px;
+    font-weight: lighter;
+}
 .div1img,.div2img,.div3img,.div4img,.div5img,.div6img{
     width: 250px;
     height: 200px;
@@ -274,17 +298,21 @@ home-overlay {
     margin-left: 340px;
 }
 
-.div2img,.div3img{
+.div2img{
     margin-right: 40px;
     margin-left: 40px;
 }
 .div4img,.div5img,.div6img{
     margin-top: 50px;
 }
-.div5img,.div6img{
+.div5img,.div2img{
 margin-right:40px ;
 margin-left: 40px;
 }
+.div3img,.div6img{
+    margin-right:40px ;
+    /* margin-left: 40px; */
+    }
 .div4img{
     margin-left: 340px;
 }
@@ -907,11 +935,11 @@ li{
 }
 .markcontent18{
     float: left;
-    margin-left: 300px;
+    margin-left: 350px;
 }
 .markcontent28{
     float: left;
-    margin-left: 80px;
+    margin-left: -10px;
 }
 .pos8{
     position: relative;
